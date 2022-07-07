@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ColorBox from './App';
+import ColorBox from './App.js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
