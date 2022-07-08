@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
+import TodoFeature from './Features/Todo';
 import './App.css';
-import React from "react";
-import ColorBox from './index.js'
 
-function ColorBox (props){
-  const {color} = props;
-
-  return(
-    <div className='box' style={{backgroundColor: color}}></div>
-
-  )
+function App(){
+    return(
+        <div className='App'>
+            <TodoFeature/>
+        </div>
+    );
 }
-export default ColorBox;
+
+export default App;
